@@ -97,15 +97,6 @@ npm start
 - **Backend API**: http://localhost:8081
 - **Admin Panel**: http://localhost:3000/admin
 
-## 🔐 Default Login Credentials
-
-### Admin Access
-- **Username**: messi
-- **Password**: 7009
-
-### Test Customer
-- **Email**: test@example.com
-- **Password**: password123
 
 ## 💳 Payment Integration
 
@@ -180,8 +171,7 @@ mvn clean package
 
 ## 📊 Database Schema
 
-### Core Tables
-- `users` - Customer and admin accounts
+### Core Tabl- `users` - Customer and admin accounts
 - `menu_items` - Restaurant menu
 - `orders` - Customer orders
 - `order_items` - Order line items
@@ -189,23 +179,18 @@ mvn clean package
 - `ethiopian_banks` - Bank configuration
 - `contact_messages` - Customer inquiries
 
-## 🔧 Configuration
+nano README.md## 🔧 Configuration
 
 ### Database Configuration
 Update `src/main/resources/application.yml`:
-
-```yaml
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/zoma_burger_db
-    username: zomaburger
-    password: zomaburger123
+r
+ 
 ```
 
 ## 📞 Contact & Support
 
-- **Developer**: Messi Yenatu
-- **Email**: messiyenatu@gmail.com
+- **Developer**: Mesenbetshegaw
+- **Email**: mmesenbetshegaw@gmail.com
 - **Secondary Email**: mmesenbetshegaw@gmail.com
 - **Telegram**: @mmmessi
 - **Location**: Bole Atlas, Near Edna Mall, Addis Ababa, Ethiopia
