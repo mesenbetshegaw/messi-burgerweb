@@ -91,3 +91,6 @@ frontend/src/pages/Admin.js
 frontend/src/pages/Admin.jsx
 admin_local.js
 admin_*.js
+frontend/node/
+*.jar
+node_modules/
