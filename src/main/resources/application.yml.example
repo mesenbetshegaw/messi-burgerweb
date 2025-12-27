@@ -1,0 +1,35 @@
+# Ethiopian Burger Shop - Configuration Template
+# COPY THIS FILE TO application.yml AND FILL YOUR SECRETS
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/burger_db
+    username: YOUR_DB_USERNAME_HERE
+    password: YOUR_DB_PASSWORD_HERE
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+# Ethiopian Payment APIs
+payment:
+  chapa:
+    secret-key: YOUR_CHAPA_SECRET_KEY_HERE
+  arifpay:
+    api-key: YOUR_ARIFPAY_API_KEY_HERE
+
+# JWT Security
+jwt:
+  secret: YOUR_JWT_SECRET_KEY_MIN_32_CHARS_HERE
+  expiration: 86400000
+
+# Admin Configuration (Change immediately!)
+admin:
+  username: admin
+  password: CHANGE_THIS_PASSWORD
+  email: admin@yourdomain.com

@@ -32,3 +32,35 @@ yarn-error.log*
 # Ignore database files
 *.db
 *.sqlite
+
+# SECURITY: Configuration files with secrets
+src/main/resources/application.yml
+src/main/resources/application.properties
+application.yml
+application.properties
+*.env
+.env
+.env.local
+.env.development
+.env.production
+
+# Secret keys
+*.key
+*.pem
+*.secret
+keystore.jks
+keystore.p12
+
+# Backup files
+*.backup
+*.bak
+
+# Local database files
+*.db
+*.sqlite
+database/local.db
+
+# IDE secrets
+.vscode/settings.json
+.idea/dataSources/
+.idea/workspace.xml
