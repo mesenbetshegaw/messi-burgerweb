@@ -1,96 +1,34 @@
-# Spring Boot
-target/
-!.mvn/wrapper/maven-wrapper.jar
-.mvn/
-mvnw
-mvnw.cmd
-*.class
-*.log
-*.ctxt
-.mtj.tmp/
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# React
+# Ignore Node.js modules
 node_modules/
+
+# Ignore build directories
+build/
+dist/
+target/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.DS_Store
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-dist/
-build/
 
-# IDE
-.idea/
-*.iws
-*.iml
-*.ipr
-.vscode/
-*.swp
-*.swo
+# Ignore Java
+*.class
+*.jar
+*.war
 
-# Database
+# Ignore database files
 *.db
 *.sqlite
-
-# OS
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# Logs
-logs/
-*.log
-
-# Maven
-.mvn/
-mvnw
-mvnw.cmd
-
-# Application Properties
-application-dev.properties
-application-prod.properties
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Environment Variables ###
-.env
-*.env
-application-prod.yml
-
-### Logs ###
-*.log
-
-### Node modules ###
-node_modules/
-npm-debug.log*
-
-### Admin Pages (Local Only) ###
-frontend/src/pages/Admin.js
-frontend/src/pages/Admin.jsx
-admin_local.js
-admin_*.js
-frontend/node/
-*.jar
-node_modules/
