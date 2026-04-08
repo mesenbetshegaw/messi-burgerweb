@@ -57,7 +57,7 @@ A complete Ethiopian burger restaurant ordering system with payment integration,
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/messiyenatu-jpg/Messi_Burger.git
+git clone https://github.com/mesenbetshegaw/messi-burgerweb.git
 cd Messi_Burger
 ```
 
